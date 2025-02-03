@@ -1,0 +1,25 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner__sobrenos{
+    background: var(--vinho);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+    padding-top: 3em;
+}
+
+.banner__titulo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.banner__texto{
+    color: var(--cinza-claro);
+    margin: 0 31%;
+    font-size: 18px;
+}
+

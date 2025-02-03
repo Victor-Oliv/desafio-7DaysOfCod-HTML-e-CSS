@@ -1,0 +1,30 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f7ebeb;
+    padding: 5em;
+    margin: 5em;
+    border-radius: 16px;
+}
+
+.depoimentos__titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.depoimentos__descricao-titulo{
+    font-size: 36px;
+    margin: 0 16%;
+    padding: 0.3em 0 0.9em 0;
+    font-weight: 500;
+}
+
+.depoimentos__descricao-texto{
+    font-weight: 500;
+}
+
+.depoimentos__descricao span{
+    color: var(--cinza-claro);
+}
